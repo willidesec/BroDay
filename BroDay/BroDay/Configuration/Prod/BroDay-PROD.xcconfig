@@ -1,0 +1,11 @@
+//
+//  BroDay-PROD.xcconfig
+//  BroDay
+//
+//  Created by William DESECOT on 23/11/2020.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+APP_NAME = BroDay
