@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		302CF2AB256BDCA200EFBB61 /* BroDay-DEV.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 302CF2AA256BDC9E00EFBB61 /* BroDay-DEV.xcconfig */; };
 		302CF2AE256BDCBA00EFBB61 /* BroDay-PROD.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 302CF2AD256BDCBA00EFBB61 /* BroDay-PROD.xcconfig */; };
+		302CF2C4256BE71C00EFBB61 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302CF2C3256BE71C00EFBB61 /* MainView.swift */; };
 		3064421A256BD4CF005E6458 /* BroDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30644219256BD4CF005E6458 /* BroDayApp.swift */; };
-		3064421C256BD4CF005E6458 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3064421B256BD4CF005E6458 /* ContentView.swift */; };
 		3064421E256BD4D1005E6458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3064421D256BD4D1005E6458 /* Assets.xcassets */; };
 		30644221256BD4D1005E6458 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30644220256BD4D1005E6458 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -18,9 +18,9 @@
 /* Begin PBXFileReference section */
 		302CF2AA256BDC9E00EFBB61 /* BroDay-DEV.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BroDay-DEV.xcconfig"; sourceTree = "<group>"; };
 		302CF2AD256BDCBA00EFBB61 /* BroDay-PROD.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BroDay-PROD.xcconfig"; sourceTree = "<group>"; };
+		302CF2C3256BE71C00EFBB61 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		30644216256BD4CE005E6458 /* BroDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BroDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30644219256BD4CF005E6458 /* BroDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroDayApp.swift; sourceTree = "<group>"; };
-		3064421B256BD4CF005E6458 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3064421D256BD4D1005E6458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30644220256BD4D1005E6458 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		30644222256BD4D1005E6458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,7 @@
 		302CF2BA256BE2D400EFBB61 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				302CF2C3256BE71C00EFBB61 /* MainView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -117,7 +118,6 @@
 				302CF2BC256BE31B00EFBB61 /* Models */,
 				302CF2BA256BE2D400EFBB61 /* Views */,
 				302CF2BD256BE32200EFBB61 /* ViewModels */,
-				3064421B256BD4CF005E6458 /* ContentView.swift */,
 				3064421F256BD4D1005E6458 /* Preview Content */,
 			);
 			path = BroDay;
@@ -202,7 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3064421C256BD4CF005E6458 /* ContentView.swift in Sources */,
+				302CF2C4256BE71C00EFBB61 /* MainView.swift in Sources */,
 				3064421A256BD4CF005E6458 /* BroDayApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
